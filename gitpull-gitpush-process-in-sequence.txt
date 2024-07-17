@@ -1,0 +1,41 @@
+# Clone a repository
+git clone <repository-url>
+
+# Create and switch to a new branch
+git checkout -b <new-branch-name>
+
+# Stage and commit changes
+git add <file1> <file2> ...
+git commit -m "Your commit message"
+
+# Push a new branch to remote
+git push origin <new-branch-name>
+
+# Push changes to an existing branch
+git push origin <branch-name>
+
+# Pull latest changes for the current branch
+git pull origin <branch-name>
+
+# Merge branches locally
+git checkout main
+git merge <branch-name>
+# Resolve conflicts if any, then commit
+git add <resolved-file>
+git commit -m "Resolved merge conflicts"
+
+# Push merged changes to remote
+git push origin main
+
+# Fetch and rebase (alternative to pull)
+git fetch origin
+git rebase origin/<branch-name>
+
+# Stash changes
+git stash
+git stash apply
+
+# Delete branches
+git branch -d <branch-name>
+git push origin --delete <branch-name>
+
