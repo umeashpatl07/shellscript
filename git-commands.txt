@@ -1,0 +1,66 @@
+Git commands 
+
+List all git commands as per sequence
+
+Answer
+Here is a comprehensive list of Git commands in the order they are typically used:
+Initial Setup and Configuration
+1. git init: Initializes a new Git repository.
+2. git config --global user.name "Your Name": Sets the global username.
+3. git config --global user.email "your_email@example.com": Sets the global email address.
+4. git config --local user.name "Your Name": Sets the local username.
+5. git config --local user.email "your_email@example.com": Sets the local email address.
+Basic Operations
+6. git add <file>: Adds a file to the staging area.
+7. git add .: Adds all files in the current directory to the staging area.
+8. git add -p: Interactively stages changes.
+9. git commit -m "commit message": Commits changes with a message.
+10. git commit -a -m "commit message": Commits all changes with a message.
+11. git status: Displays the status of the repository.
+12. git diff: Shows the differences between the working directory and the index.
+13. git diff --cached: Shows the differences between the index and the last commit.
+Branching and Merging
+14. git branch <branch-name>: Creates a new branch.
+15. git checkout <branch-name>: Switches to a new branch.
+16. git checkout -b <branch-name>: Creates a new branch and switches to it.
+17. git merge <branch-name>: Merges the specified branch into the current branch.
+18. git merge --no-ff <branch-name>: Merges the specified branch into the current branch without fast-forwarding.
+19. git branch -d <branch-name>: Deletes a branch.
+20. git branch -D <branch-name>: Forces deletion of a branch.
+Remote Repositories
+21. git remote add origin <repository-url>: Adds a remote repository.
+22. git remote -v: Lists all remote repositories.
+23. git push -u origin <branch-name>: Pushes the current branch to the remote repository and sets it as the upstream branch.
+24. git push origin <branch-name>: Pushes the current branch to the remote repository.
+25. git pull origin <branch-name>: Fetches and merges changes from the remote repository.
+26. git fetch origin: Fetches changes from the remote repository without merging.
+27. git remote set-url origin <new-repo-url>: Updates the URL of the remote repository.
+Tagging and Versioning
+28. git tag <tag-name>: Creates a new tag.
+29. git tag -a <tag-name> -m "tag message": Creates a new annotated tag.
+30. git tag -d <tag-name>: Deletes a tag.
+31. git show <tag-name>: Displays information about a tag.
+32. git push origin <tag-name>: Pushes a tag to the remote repository.
+History and Revisions
+33. git log: Displays the commit history.
+34. git log -p: Displays the commit history with patch details.
+35. git log -1: Displays the most recent commit.
+36. git show <commit-hash>: Displays information about a specific commit.
+37. git reset --hard <commit-hash>: Resets the repository to a specific commit.
+38. git reset --soft <commit-hash>: Resets the repository to a specific commit, keeping the changes staged.
+39. git reset HEAD~1: Resets the repository to the previous commit.
+Stashing and Cleaning
+40. git stash: Saves all local changes.
+41. git stash list: Lists all stashed changes.
+42. git stash apply: Applies the most recent stash.
+43. git stash pop: Applies and removes the most recent stash.
+44. git clean -f: Deletes untracked files.
+45. git clean -f -d: Deletes untracked files and directories.
+Advanced Operations
+46. git bisect: Performs a binary search to find the commit that introduced a bug.
+47. gitk --all: Displays a graphical representation of the commit history.
+48. gitk --all --graph: Displays a graphical representation of the commit history with branch information.
+49. git reflog: Displays the reflog, which records all changes to the repository.
+50. git fsck: Verifies the integrity of the repository.
+This list covers the most commonly used Git commands. For more detailed information, you can refer to the official Git documentation.
+
