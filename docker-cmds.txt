@@ -1,208 +1,136 @@
-Run Docker commands with sudo:
-Use sudo before your Docker command to run it with elevated privileges.
+Here’s a comprehensive list of Docker commands organized by the typical workflow: creating a Dockerfile, building an image, and managing containers.
 
-sh
-Copy code
-sudo docker ps
-Add your user to the Docker group:
-Adding your user to the Docker group allows you to run Docker commands without sudo.
+1. Creating a Dockerfile
+Create and Edit Dockerfile
 
-a. Create the Docker group if it doesn't already exist.
-
-sh
-Copy code
-sudo groupadd docker
-b. Add your user to the Docker group.
-
-sh
-Copy code
-sudo usermod -aG docker $USER
-c. Log out and log back in so that your group membership is re-evaluated.
-
-d. Verify that you can run Docker commands without sudo.
-
-sh
-Copy code
-docker ps
-Restart the Docker daemon:
-If the above steps do not resolve the issue, try restarting the Docker daemon.
-
-sh
-Copy code
-sudo systemctl restart docker
-Check Docker service status:
-Ensure that the Docker service is running.
-
-sh
-Copy code
-sudo systemctl status docker
-Fix Docker socket permissions:
-If the Docker socket file permissions are incorrect, you can correct them by running:
-
-sh
-Copy code
-sudo chown root:docker /var/run/docker.sock
-sudo chmod 660 /var/run/docker.sock
-Here is a step-by-step example:
-
-Add your user to the Docker group:
-
-sh
-Copy code
-sudo usermod -aG docker $USER
-Log out and log back in, then verify:
-
-sh
-Copy code
-docker ps
-If you still encounter issues, use sudo:
-
-sh
-Copy code
-sudo docker ps
-By following these steps, you should be able to resolve the "permission denied" error and successfully run Docker commands.
-list down all commands which are daily used in creating file /image and container  using docker
-
-ChatGPT
-Sure! Here is a list of commonly used Docker commands for creating files, images, and containers:
-
-Working with Dockerfiles
 Create a Dockerfile:
-Create a file named Dockerfile in your project directory.
-
 sh
 Copy code
 touch Dockerfile
-Building Docker Images
-Build an Image from a Dockerfile:
-Builds an image from the Dockerfile in the current directory and tags it.
+Edit Dockerfile:
+Use your preferred text editor (e.g., nano, vim, or an IDE) to add instructions to your Dockerfile.
+sh
+Copy code
+nano Dockerfile
+2. Building Docker Images
+Build and Manage Docker Images
 
+Build an Image from a Dockerfile:
 sh
 Copy code
 docker build -t my-image:tag .
-Managing Docker Images
 List Docker Images:
-Lists all images available locally.
-
 sh
 Copy code
 docker images
 Remove a Docker Image:
-Removes a specific image.
-
 sh
 Copy code
 docker rmi my-image:tag
-Working with Containers
-Run a Container:
-Runs a container from an image.
+Tag an Image:
+sh
+Copy code
+docker tag my-image:tag new-image:tag
+Push an Image to a Registry:
+sh
+Copy code
+docker push my-image:tag
+Pull an Image from a Registry:
+sh
+Copy code
+docker pull my-image:tag
+3. Running Docker Containers
+Create, Start, and Manage Containers
 
+Run a Container:
 sh
 Copy code
 docker run -d --name my-container my-image:tag
+Run a Container with Port Mapping:
+sh
+Copy code
+docker run -d -p 8080:80 --name my-container my-image:tag
+Run a Container with Volume Mounting:
+sh
+Copy code
+docker run -d -v /host/path:/container/path --name my-container my-image:tag
 List Running Containers:
-Lists all currently running containers.
-
 sh
 Copy code
 docker ps
 List All Containers:
-Lists all containers, both running and stopped.
-
 sh
 Copy code
 docker ps -a
 Stop a Running Container:
-Stops a specific running container.
-
 sh
 Copy code
 docker stop my-container
 Start a Stopped Container:
-Starts a specific stopped container.
-
 sh
 Copy code
 docker start my-container
 Restart a Container:
-Restarts a specific container.
-
 sh
 Copy code
 docker restart my-container
 Remove a Container:
-Removes a specific container.
-
 sh
 Copy code
 docker rm my-container
-Inspecting Docker Objects
-Inspect an Image:
-Displays detailed information about a specific image.
+4. Inspecting Docker Objects
+Inspect Images and Containers
 
+Inspect an Image:
 sh
 Copy code
 docker inspect my-image:tag
 Inspect a Container:
-Displays detailed information about a specific container.
-
 sh
 Copy code
 docker inspect my-container
-Managing Docker Volumes
-Create a Volume:
-Creates a new volume.
+5. Managing Docker Volumes
+Create and Manage Volumes
 
+Create a Volume:
 sh
 Copy code
 docker volume create my-volume
 List Volumes:
-Lists all volumes.
-
 sh
 Copy code
 docker volume ls
 Remove a Volume:
-Removes a specific volume.
-
 sh
 Copy code
 docker volume rm my-volume
-Managing Docker Networks
-Create a Network:
-Creates a new network.
+6. Managing Docker Networks
+Create and Manage Networks
 
+Create a Network:
 sh
 Copy code
 docker network create my-network
 List Networks:
-Lists all networks.
-
 sh
 Copy code
 docker network ls
 Remove a Network:
-Removes a specific network.
-
 sh
 Copy code
 docker network rm my-network
-Docker Compose
-Start Services Defined in a Compose File:
-Runs services defined in a docker-compose.yml file.
+7. Docker Compose
+Managing Multi-Container Applications
 
+Start Services Defined in a Compose File:
 sh
 Copy code
 docker-compose up -d
 Stop Services Defined in a Compose File:
-Stops services defined in a docker-compose.yml file.
-
 sh
 Copy code
 docker-compose down
 View Compose Logs:
-Displays logs for services defined in a docker-compose.yml file.
-
 sh
 Copy code
 docker-compose logs
@@ -231,4 +159,60 @@ CMD ["node", "app.js"]
 
 # Document that the service listens on port 8080
 EXPOSE 8080
+Summary of Workflow Commands
+Create and Edit Dockerfile:
 
+sh
+Copy code
+touch Dockerfile
+nano Dockerfile
+Build and Manage Docker Images:
+
+sh
+Copy code
+docker build -t my-image:tag .
+docker images
+docker rmi my-image:tag
+docker tag my-image:tag new-image:tag
+docker push my-image:tag
+docker pull my-image:tag
+Run and Manage Containers:
+
+sh
+Copy code
+docker run -d --name my-container my-image:tag
+docker run -d -p 8080:80 --name my-container my-image:tag
+docker run -d -v /host/path:/container/path --name my-container my-image:tag
+docker ps
+docker ps -a
+docker stop my-container
+docker start my-container
+docker restart my-container
+docker rm my-container
+Inspect Docker Objects:
+
+sh
+Copy code
+docker inspect my-image:tag
+docker inspect my-container
+Manage Volumes:
+
+sh
+Copy code
+docker volume create my-volume
+docker volume ls
+docker volume rm my-volume
+Manage Networks:
+
+sh
+Copy code
+docker network create my-network
+docker network ls
+docker network rm my-network
+Docker Compose:
+
+sh
+Copy code
+docker-compose up -d
+docker-compose down
+docker-compose logs
