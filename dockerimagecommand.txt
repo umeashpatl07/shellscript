@@ -1,0 +1,1000 @@
+ 1041  git log
+ 1042  git log --oneline
+ 1043  git revert 43bc007
+ 1044  ls
+ 1045  git log --oneline
+ 1046  ls
+ 1047  vim logic.txt
+ 1048  git add logic.txt 
+ 1049  git commit -m " coorect"
+ 1050  vim logic.txt 
+ 1051  git add logic.txt 
+ 1052  git commit -m " line2 added"
+ 1053  vim logic.txt 
+ 1054  git status
+ 1055  git add logic.txt 
+ 1056  git commit "deleted"
+ 1057  ls
+ 1058  git log --online
+ 1059  git log --oneline
+ 1060  git status
+ 1061  git commit "latest"
+ 1062  git commit -m " latest"
+ 1063  git log  --oneline
+ 1064  git revert b26e0e2
+ 1065  ls
+ 1066  cat logic.txt
+ 1067  git push origin devbranch 
+ 1068  git status
+ 1069  ls
+ 1070  git log --oneline
+ 1071  git reset --soft 151f455
+ 1072  git log --oneline
+ 1073  git reset --soft b26e0e2
+ 1074  git log --oneline
+ 1075  ls
+ 1076  cat logic.txt 
+ 1077  git branch
+ 1078  git checkout main
+ 1079  git checkout master
+ 1080  git checkout main
+ 1081  git branch
+ 1082  git switch main
+ 1083  git status
+ 1084  git checkout main
+ 1085  git branch
+ 1086  git switch main
+ 1087  git status
+ 1088  git commit -m " logic added"
+ 1089  git branch
+ 1090  git checkout main
+ 1091  git branch
+ 1092  git merge devbranch 
+ 1093  ls
+ 1094  git push origin main
+ 1095  ls
+ 1096  git log --oneline
+ 1097  git status
+ 1098  git branch
+ 1099  git checkout devbranch 
+ 1100  ls
+ 1101  cat lo
+ 1102  cat logic.txt 
+ 1103  git checkout main
+ 1104  ls
+ 1105  cat logic.txt 
+ 1106  ls
+ 1107  cd git-project/
+ 1108  ls
+ 1109  git status
+ 1110  git checkot devbranch
+ 1111  git checkout devbranch
+ 1112  git status
+ 1113  git switch devbranch
+ 1114  git branch
+ 1115  ls
+ 1116  cd shellscript/
+ 1117  ls
+ 1118  git status
+ 1119  git checkout devbranch 
+ 1120  vim hotfix.txt
+ 1121  git add hotfix.txt 
+ 1122  git commit -m " hotfix added"
+ 1123  vim functionx.txt
+ 1124  git add functionx.txt 
+ 1125  git commit -m " fun x added "
+ 1126  git log --oneline
+ 1127  git cherry-pick 3f53afb
+ 1128  ls
+ 1129  git log
+ 1130  git ls
+ 1131  ls
+ 1132  git checkout main
+ 1133  ls
+ 1134  git checkout devbranch 
+ 1135  ls
+ 1136  git log --oneline
+ 1137  git checkout main
+ 1138  git cherry-pick 3f53afb
+ 1139  ls
+ 1140  cat hotfix.txt 
+ 1141  history > all-cmds.sh
+ 1142  ls
+ 1143  git status
+ 1144  git add all-cmds.sh 
+ 1145  git commit -m " cmds"
+ 1146  ls
+ 1147  git status
+ 1148  ls
+ 1149  git checkout devbranch 
+ 1150  git log --oneline
+ 1151  git status
+ 1152  git checkout main 
+ 1153  git log --oneline
+ 1154  git checkout devbranch 
+ 1155  git cherry-pick 7eb6fd2
+ 1156  git status
+ 1157  ls
+ 1158  git status
+ 1159  git push origin devbranch 
+ 1160  ls
+ 1161  git branch
+ 1162  git push origin devbranch 
+ 1163  git fetch
+ 1164  git push origin devbranch 
+ 1165  ls
+ 1166  git branch
+ 1167  git push origin devbranch 
+ 1168  git pull origin devbranch 
+ 1169  ls
+ 1170  git status
+ 1171  git log
+ 1172  ls
+ 1173  git status
+ 1174  git push origin devbranch 
+ 1175  git push origin main
+ 1176  git pull origin main
+ 1177  ls
+ 1178  cat all-cmds.sh 
+ 1179  git status
+ 1180  git log --oneline
+ 1181  ls
+ 1182  git push origin devbranch 
+ 1183  git pull main
+ 1184  git pull origin main
+ 1185  ls
+ 1186  clear
+ 1187  ls
+ 1188  git status
+ 1189  git push origin devbranch 
+ 1190  ls -a
+ 1191  git checkout main
+ 1192  ls
+ 1193  rm -rf all-cmds.sh 
+ 1194  ls
+ 1195  git checkout devbranch 
+ 1196  ls
+ 1197  git push origin devbranch 
+ 1198  git push origin main
+ 1199  ls
+ 1200  git status
+ 1201  git commit -a
+ 1202  ls
+ 1203  git status
+ 1204  git branch
+ 1205  ls
+ 1206  git checkout main
+ 1207  ls
+ 1208  git checkout devbranch 
+ 1209  ls
+ 1210  git status
+ 1211  git add all-cmds.sh 
+ 1212  git commit -m " cmds file added"
+ 1213  ls
+ 1214  git status
+ 1215  history > allcommands.txt
+ 1216  ls
+ 1217  git status
+ 1218  git add allcommands.txt 
+ 1219  git commit -m " cmds added"
+ 1220  ls
+ 1221  git push origin devbranch 
+ 1222  ls
+ 1223  git branch
+ 1224  ls
+ 1225  git push origin devbranch 
+ 1226  git pull origin devbranch 
+ 1227  git status
+ 1228  git push origin main
+ 1229  git push origin devbranch 
+ 1230  ls
+ 1231  git merge devbranch 
+ 1232  git rebase devbranch 
+ 1233  git log --oneline
+ 1234  git cherry-pick 0707111
+ 1235  ls
+ 1236  git push origin devbranch 
+ 1237  git status
+ 1238  git push origin devbranch 
+ 1239  git pull origin main
+ 1240  git status
+ 1241  git pull origin main
+ 1242  git rebase devbranch 
+ 1243  git merge devbranch 
+ 1244  git status
+ 1245  git pull origin main
+ 1246  git pull origin main --rebase
+ 1247  git log --oneline
+ 1248  git merge devbranch 
+ 1249  ls
+ 1250  git status
+ 1251  git push origin devbranch 
+ 1252  git checkout main
+ 1253  ls
+ 1254  git push main
+ 1255  git push origin main
+ 1256  git merge devbranch  --squash HEAD~2
+ 1257  git status
+ 1258  git log --oneline
+ 1259  git merge --squash devbranch 
+ 1260  git restore --staged functionx.txt
+ 1261  git clean
+ 1262  git status
+ 1263  git merge --squash devbranch 
+ 1264  git status
+ 1265  git push origin devbranch 
+ 1266  git fetch
+ 1267  ls
+ 1268  git status
+ 1269  git checkout devbranch 
+ 1270  git branch
+ 1271  git status
+ 1272  git rm -rf functionx.txt 
+ 1273  git restore functionx.txt
+ 1274  ls
+ 1275  cat all-cmds.sh 
+ 1276  clear
+ 1277  ls
+ 1278  git push origin devbranch
+ 1279  git rebase devbranch 
+ 1280  git status
+ 1281  git commit -m functionx.txt
+ 1282  git status
+ 1283  git add functionx.txt 
+ 1284  ls
+ 1285  git status
+ 1286  git pull
+ 1287  git push origin devbranch 
+ 1288  git rebase
+ 1289  git rebase origin devbranch 
+ 1290  ls
+ 1291  git branch
+ 1292  git checkout devbranch 
+ 1293  ls
+ 1294  git push origin devbranch 
+ 1295  git pull origin devbranch 
+ 1296  git pull origin main
+ 1297  ls
+ 1298  git push origin main
+ 1299  ls
+ 1300  git branch
+ 1301  git pull origin devbranch 
+ 1302  git rebase devbranch 
+ 1303  git merge devbranch 
+ 1304  git push origin devbranch 
+ 1305  ls
+ 1306  git branch
+ 1307  ls
+ 1308  git pull origin devbranch 
+ 1309  ls
+ 1310  git push origin devbranch 
+ 1311  git status
+ 1312  git push origin devbranch 
+ 1313  git log --oneline
+ 1314  git push cherrypick 08e3e1d devbranch 
+ 1315  git push cherry-pick 08e3e1d devbranch 
+ 1316  git cherry-pick 08e3e1d devbranch 
+ 1317  git cherry-pick 08e3e1d 
+ 1318  ls
+ 1319  git pull origin devbranch 
+ 1320  git push origin main
+ 1321  ls
+ 1322  rm -rf allcommands.txt 
+ 1323  ls
+ 1324  git status
+ 1325  git checkout main
+ 1326  git status
+ 1327  ls
+ 1328  rm -rf all-cmds.sh 
+ 1329  ls
+ 1330  git log -oneline
+ 1331  git log --oneline
+ 1332  git status
+ 1333  git reset all-cmds.sh
+ 1334  git rm all-cmds.sh 
+ 1335  git rm allcommands.txt 
+ 1336  git status
+ 1337  ls
+ 1338  git status
+ 1339  git checkout devbranch 
+ 1340  git pull origin devbranch 
+ 1341  ls
+ 1342  git status
+ 1343  git restore --staged allcommands.txt
+ 1344  ls
+ 1345  git status
+ 1346  git rm allcommands.txt 
+ 1347  ls
+ 1348  git status
+ 1349  git push origin devbranch 
+ 1350  ls
+ 1351  clear
+ 1352  git branch 
+ 1353  ls
+ 1354  git pull origin main
+ 1355  git rebase devbranch 
+ 1356  git status
+ 1357  git restore --staged allcommands.txt
+ 1358  git status
+ 1359  git merge devbranch 
+ 1360  git rebase devbranch 
+ 1361  git statsu
+ 1362  git status
+ 1363  git rm -rf allcommands.txt 
+ 1364  git status
+ 1365  ls
+ 1366  vim shivansh.txt
+ 1367  git status
+ 1368  git add shivansh.txt 
+ 1369  git commit -m " shvia added"
+ 1370  ls
+ 1371  git push origin devbranch 
+ 1372  git branch
+ 1373  git pull main
+ 1374  git pull origin devbranch 
+ 1375  git push  origin devbranch 
+ 1376  git push
+ 1377  git push --set-upstream origin devbranch 
+ 1378  git status
+ 1379  ls
+ 1380  git branch
+ 1381  ls
+ 1382  git push origin devbranch 
+ 1383  git pull origin devbranch 
+ 1384  ls
+ 1385  git log --oneline
+ 1386  git reset hard 58af57e
+ 1387  ls
+ 1388  git reset hard 58af57e
+ 1389  git reset --hard 58af57e
+ 1390  ls
+ 1391  git push origin devbranch 
+ 1392  ls
+ 1393  git branch
+ 1394  ls
+ 1395  git cehckout main
+ 1396  ls
+ 1397  git checkout main
+ 1398  ls
+ 1399  git status
+ 1400  git checkout devbranch 
+ 1401  git pull origin devbranch 
+ 1402  git rebase devbranch 
+ 1403  ls
+ 1404  git branch
+ 1405  git pull origin devbranch 
+ 1406  git push origin main
+ 1407  git config --global
+ 1408  git config --global -l
+ 1409  ls
+ 1410  rm shivansh.txt 
+ 1411  ls
+ 1412  git status
+ 1413  git rm shivansh.txt 
+ 1414  ls
+ 1415  git status
+ 1416  git reset --hard shivnash.txt
+ 1417  git reset --soft shivansh.txt
+ 1418  ls
+ 1419  ls -a
+ 1420  ls -ltr
+ 1421  git status
+ 1422  git push origin devbranch 
+ 1423  git pull origin devbranch 
+ 1424  ls
+ 1425  git rebase
+ 1426  git rebase devbranch 
+ 1427  git merge devbranch 
+ 1428  ls
+ 1429  git log --oneline
+ 1430  git restore 58af57e
+ 1431  git reset --hard 08e3e1d
+ 1432  git log
+ 1433  ls
+ 1434  cat allcommands.txt 
+ 1435  ls
+ 1436  git checkout main
+ 1437  git pull origin devbranch 
+ 1438  git push origi main
+ 1439  git push origin main
+ 1440  git push origin devbranch 
+ 1441  git merge main
+ 1442  git rebase main
+ 1443  git checkout devbranch 
+ 1444  git merge devbranch 
+ 1445  git branch
+ 1446  vim merge-confilict.txt
+ 1447  git add merge-confilict.txt 
+ 1448  git commit -m " devpe mergeconfict"
+ 1449  git checkout main
+ 1450  vim merge-confilict.txt
+ 1451  git add merge-confilict.txt 
+ 1452  git commit -m " merge masger "
+ 1453  git status
+ 1454  git merge dev
+ 1455  git branch
+ 1456  git checkout devbranch 
+ 1457  git merge devbranch 
+ 1458  ls
+ 1459  git merge devbranch 
+ 1460  git checkout devbranch 
+ 1461  git checkout main
+ 1462  git merge devbranch 
+ 1463  vim merge-confilict.txt 
+ 1464  git status
+ 1465  git add merge-confilict.txt 
+ 1466  git commit -m " resolved merge confict"
+ 1467  git merge dev
+ 1468  git merge devbranch 
+ 1469  ls
+ 1470  cat merge-confilict.txt 
+ 1471  ls
+ 1472  git checkout devbranch 
+ 1473  ls
+ 1474  git push origin merge-confilict.txt
+ 1475  git push origin devbranch 
+ 1476  git status
+ 1477  git push origin devbranch 
+ 1478  git checkout devbranch 
+ 1479  git pull origin devbranch 
+ 1480  git push origin devbranch 
+ 1481  git fetch origin
+ 1482  git reset --hard origin/devbranch 
+ 1483  git status
+ 1484  ls
+ 1485  git checkout main
+ 1486  git pull origin main
+ 1487  git pull origin devbranch 
+ 1488  git checkout devbranch 
+ 1489  git pull origin main
+ 1490  git branch 
+ 1491  git push main
+ 1492  git checkout main
+ 1493  git pull origin main
+ 1494  git merge devbranch 
+ 1495  git status
+ 1496  git pull
+ 1497  git status
+ 1498  ls
+ 1499  git branch
+ 1500  git merge devbranch 
+ 1501  git rebase devbranch 
+ 1502  git merge devbranch 
+ 1503  git status
+ 1504  git branch
+ 1505  git checkout devbranch 
+ 1506  git status
+ 1507  git add merge-confilict.txt 
+ 1508  git commit " merge"
+ 1509  git commit -m " merge "
+ 1510  git merge devbranch 
+ 1511  git pull origin devbranch 
+ 1512  git checkout main
+ 1513  git pull origin devbranch 
+ 1514  ls
+ 1515  git clean * -f
+ 1516  ls
+ 1517  git push origin --delete devbranch 
+ 1518  ls
+ 1519  git branch
+ 1520  git switch devbranch 
+ 1521  git rebase dev
+ 1522  git rebase devbranch
+ 1523  ls
+ 1524  git status
+ 1525  git pull origin main
+ 1526  git pull origin devbranch
+ 1527  ls
+ 1528  ls -a
+ 1529  cd .git
+ 1530  ls
+ 1531  ls -ltr
+ 1532  cd branches
+ 1533  ls
+ 1534  cd logs
+ 1535  ls
+ 1536  cd logs/
+ 1537  cd logs
+ 1538  cd objects
+ 1539  ls
+ 1540  cd ..
+ 1541  ls
+ 1542  ls -a
+ 1543  cd ..
+ 1544  cd
+ 1545  ls
+ 1546  cd git-project/
+ 1547  ls
+ 1548  cd shellscript/
+ 1549  ls
+ 1550  cd
+ 1551  ls
+ 1552  rm -rf git-project/
+ 1553  ls
+ 1554  mkdir git-project
+ 1555  cd git-project/
+ 1556  git init
+ 1557  git clone git@github.com:umeashpatl07/shellscript.git
+ 1558  ls
+ 1559  cd shellscript/
+ 1560  ls
+ 1561  touch gita.txt
+ 1562  git status
+ 1563  git add gita.txt 
+ 1564  git commit " file gita added"
+ 1565  git branch
+ 1566  ls
+ 1567  git checkout -b dev
+ 1568  git branch
+ 1569  ls
+ 1570  vim bamboo.txt
+ 1571  git status
+ 1572  git add bamboo.txt 
+ 1573  git commit -m " bamboo file added"
+ 1574  git status
+ 1575  ls
+ 1576  git pull origin dev
+ 1577  git remote -v
+ 1578  git pull origin dev
+ 1579  git push origin dev
+ 1580  ls
+ 1581  git branch
+ 1582  git checkout main
+ 1583  git merge dev
+ 1584  git push origin dev
+ 1585  git merge dev
+ 1586  git branch
+ 1587  ls
+ 1588  git checkout dev
+ 1589  ls
+ 1590  git merge dev
+ 1591  git push origin dev
+ 1592  git branch
+ 1593  ls
+ 1594  git checkout main
+ 1595  ls
+ 1596  git checkout dev
+ 1597  git pull origin dev
+ 1598  git checkout main
+ 1599  git pull origin main
+ 1600  git checkout dev -- home/ubuntu/git-project/shellscript/gita.txt
+ 1601  pwd
+ 1602  ls
+ 1603  git checkout dev --home/ubuntu/git-project/shellscript
+ 1604  git checkout dev -- home/ubuntu/git-project/shellscript
+ 1605  git checkout dev -- home/ubuntu/git-project/shellscript/gita.txt
+ 1606  ls
+ 1607  history
+ 1608  ls
+ 1609  clear
+ 1610  git branch
+ 1611  ls
+ 1612  git checkout dev
+ 1613  ls
+ 1614  git checkout main
+ 1615  git pull dev
+ 1616  git pull origin dev
+ 1617  git merge origin dev
+ 1618  git rebase origin dev
+ 1619  git checkout dev
+ 1620  git push origin dev
+ 1621  git merge main
+ 1622  git merge dev
+ 1623  git checkout main
+ 1624  git merge dev
+ 1625  git push origin main
+ 1626  git merge origin dev
+ 1627  vim gitpull-gitpush-process-in-sequence.txt
+ 1628  ls
+ 1629  git branch
+ 1630  git checkout dev
+ 1631  ls
+ 1632  git push origin dev
+ 1633  git merge main
+ 1634  git checkout main
+ 1635  ls
+ 1636  git push origin main
+ 1637  git pull origin dev
+ 1638  git status
+ 1639  git add gitpull-gitpush-process-in-sequence.txt 
+ 1640  git commit -m "important file"
+ 1641  git branch
+ 1642  git ls
+ 1643  ls
+ 1644  git push origin dev
+ 1645  git pull  origin dev
+ 1646  git checkout dev
+ 1647  ls
+ 1648  git pull origin main
+ 1649  git pull origin dev
+ 1650  git checkout main
+ 1651  git push origin dev
+ 1652  git checkout dev
+ 1653  git merge main
+ 1654  ls
+ 1655  git status
+ 1656  git pull origin dev
+ 1657  git push  origin dev
+ 1658  git branch
+ 1659  git checkout main
+ 1660  git pull origin dev
+ 1661  git merge origin dev
+ 1662  git merge dev
+ 1663  git checkout dev
+ 1664  git push origin main
+ 1665  git checkout dev
+ 1666  ls
+ 1667  git pull origin main
+ 1668  git pull origin dev
+ 1669  git checkout main
+ 1670  ls
+ 1671  git merge dev
+ 1672  git pull origin dev
+ 1673  git checkout main
+ 1674  git merge dev
+ 1675  git merge main
+ 1676  git checkout dev
+ 1677  git merge main
+ 1678  git status
+ 1679  git checkout dev
+ 1680  git pull origin dev
+ 1681  git checkout main
+ 1682  git pull origin main
+ 1683  git checkout main
+ 1684  git push origin main
+ 1685  git checkout dev
+ 1686  vim git-commands.txt
+ 1687  git status
+ 1688  git add git-commands.txt 
+ 1689  git commit -m "all git commands added in seq"
+ 1690  ls
+ 1691  git push origin dev
+ 1692  ls
+ 1693  git checkout main
+ 1694  ls
+ 1695  git merge dev
+ 1696  ls
+ 1697  git checkout main
+ 1698  ls
+ 1699  git merge main
+ 1700  git merge dev
+ 1701  git checkout dev
+ 1702  git push origin dev
+ 1703  git push origin main
+ 1704  ls
+ 1705  cd
+ 1706  git branch
+ 1707  cd git-project/
+ 1708  cd shellscript/
+ 1709  git branch
+ 1710  git branch -l
+ 1711  git commit -l
+ 1712  git branch
+ 1713  git status
+ 1714  git push origin dev
+ 1715  git checkout main
+ 1716  git pull origin dev
+ 1717  clear
+ 1718  ls
+ 1719  cd git-project/
+ 1720  ls
+ 1721  cd shellscript/
+ 1722  ls
+ 1723  touch 20jul.txt
+ 1724  git status
+ 1725  git add 20jul.txt 
+ 1726  git commit -m " today "
+ 1727  git branch
+ 1728  git checkout dev 
+ 1729  git merge main
+ 1730  ls
+ 1731  git push dev
+ 1732  git push origin dev
+ 1733  git checkout main
+ 1734  ls
+ 1735  git pull origin dev
+ 1736  git push origin dev
+ 1737  git push origin main
+ 1738  clear
+ 1739  sudo apt install docker.io
+ 1740  docker ps
+ 1741  docker ls
+ 1742  clear
+ 1743  cd
+ 1744  ls
+ 1745  ls -ltr
+ 1746  ps
+ 1747  free -h
+ 1748  hostnamectl
+ 1749  who
+ 1750  date
+ 1751  ls
+ 1752  clear
+ 1753  who
+ 1754  whocl
+ 1755  whoctl
+ 1756  whoami
+ 1757  whoami -d
+ 1758  whoami -p
+ 1759  who ami
+ 1760  ls
+ 1761  whoami
+ 1762  whoami man
+ 1763  man whoami
+ 1764  docker --version
+ 1765  sudo apt install jenkin.io
+ 1766  sudo apt install jenkin.services
+ 1767  sudo apt-get update
+ 1768  sudo apt-get install docker.io
+ 1769  docker --version
+ 1770  docker ps
+ 1771  docker systemctl
+ 1772  systemctl system docker
+ 1773  systemctl docker
+ 1774  docker ps
+ 1775  cd /etc/group
+ 1776  cd /etc/group/
+ 1777  cd /etc/groups/
+ 1778  cd ../etc/groups/
+ 1779  cd ../etc/groups
+ 1780  cd /etc/group/
+ 1781  sudo usermod aG docker $user
+ 1782  cat  /etc/group
+ 1783  sudo reboot
+ 1784  docker ps
+ 1785  sudo usermod aG docker $USER
+ 1786  cat  /etc/group
+ 1787  CLEAR
+ 1788  docker ps
+ 1789  sudo apt-get updage
+ 1790  sudo apt-get update
+ 1791  sudo usermod aG docker $USER
+ 1792  docker ps
+ 1793  sudo usermod aG docker $USER
+ 1794  sudo apt-get udpate
+ 1795  sud0 usermod -aG $USER
+ 1796  sudo usermod -aG $USER
+ 1797  sudo usermod -ag $USER
+ 1798  docker ps
+ 1799  sudo docker ps
+ 1800  sudo groupadd docker
+ 1801  sudo usermod -aG $USER
+ 1802  docker ps
+ 1803  sudo docker ps
+ 1804  sudo systemctl restart docker
+ 1805  sudo systemctl status docker
+ 1806  sudo chown root:docker /var/run/docker.sock
+ 1807  sudo chmod 660 /var/run/docker.sock
+ 1808  sudo chown root:docker /var/run/docker.sock
+ 1809  sudo docker ps
+ 1810  sudo usermod -aG $username
+ 1811  sudo usermod --aG $username
+ 1812  sudo usermod -a -G $username
+ 1813  docker ps
+ 1814  sudo docker ps
+ 1815  docker free-h
+ 1816  dcoker images
+ 1817  docker images
+ 1818  sudo docker images
+ 1819  sudo docker start
+ 1820  sudo docker restart
+ 1821  sudo chown root:docker /var/run/docker.sock
+ 1822  docker ps
+ 1823  sudo chown ubuntu :docker /var/run/docker.sock
+ 1824  sudo chown ubuntu :docker /var/run/docker.io
+ 1825  sudo chown ubuntu :docker /var/run/docker
+ 1826  sudo chown ubuntu :docker /var/run/docker.sock
+ 1827  sudo chown ubuntu :docker /var/run/docker.services
+ 1828  sudo chown ubuntu :docker /var/run/docker/
+ 1829  sudo usermod -aG docker $USER
+ 1830  docker ps
+ 1831  docker images
+ 1832  docker images -a
+ 1833  docker free -h
+ 1834  docker ps
+ 1835  ls
+ 1836  cd git-project/
+ 1837  ls
+ 1838  cd shellscript/
+ 1839  ls
+ 1840  git branch
+ 1841  git checkout dev
+ 1842  touch docker-cmds.txt 
+ 1843  vim docker-cmds.txt 
+ 1844  git status
+ 1845  git add docker-cmds.txt 
+ 1846  git commit -m " docker file added"
+ 1847  git status
+ 1848  ls
+ 1849  git push origin dev
+ 1850  git checkout main
+ 1851  git pull origin main
+ 1852  git pull origin dev
+ 1853  ls
+ 1854  git branch
+ 1855  ls
+ 1856  git pull origin main
+ 1857  git pull origin dev
+ 1858  git branch
+ 1859  git pull origin dev
+ 1860  ls
+ 1861  git status
+ 1862  git push origin main
+ 1863  git branch
+ 1864  git checkout dev
+ 1865  git push origin main
+ 1866  git checkout main
+ 1867  git pull origin dev
+ 1868  ls
+ 1869  docker ps
+ 1870  cd git-project/
+ 1871  cd shellscript/
+ 1872  ls
+ 1873  git branch
+ 1874  git merge dev
+ 1875  git pull origin dev
+ 1876  git merge origin dev
+ 1877  git status
+ 1878  git pull origin dev
+ 1879  clear
+ 1880  docker --version
+ 1881  sudo apt install docker
+ 1882  sudo apt install docker.io
+ 1883  docker ps
+ 1884  systemctl status docker
+ 1885  clear
+ 1886  docker ps
+ 1887  docker free -h
+ 1888  docker info
+ 1889  cat /etc/groups/
+ 1890  cat /etc/groups
+ 1891  sudo cat /etc/group
+ 1892  sudo usermod -aG docker $USER
+ 1893  sudo cat /etc/group
+ 1894  DOCKER PS
+ 1895  docker ps
+ 1896  docker start
+ 1897  docker hman
+ 1898  docker man
+ 1899  man docker
+ 1900  clear
+ 1901  docker pull mysql
+ 1902  docker ps
+ 1903  docker status
+ 1904  docker images
+ 1905  docker run 5cde95de907d:latest
+ 1906  docker mysql:latest
+ 1907  docker run mysql:latest
+ 1908  docker run -e MYSQL_ROOT_PASSWORD=test@123  mysql:latest
+ 1909  docker ps
+ 1910  docker restart 27fbea3ff37d
+ 1911  docker fs
+ 1912  docker ps
+ 1913  docker kill 27fbea3ff37d
+ 1914  docker run -d  -e MYSQL_ROOT_PASSWORD=test@123  mysql:latest
+ 1915  docker ps
+ 1916  docker sql
+ 1917  dockeer mysql
+ 1918  mkdir docker-project
+ 1919  ls
+ 1920  cd docker-project/
+ 1921  cd
+ 1922  mkdir projects
+ 1923  cd projects/
+ 1924  mkdir java-app
+ 1925  cd java-app/
+ 1926  vim hello.java
+ 1927  ls
+ 1928  cat hello.java 
+ 1929  javac hello.java 
+ 1930  vim hello.java 
+ 1931  vim dockerfile
+ 1932  ls
+ 1933  docker build -t java-application:latest
+ 1934  docker build -t java-application:latest .
+ 1935  vim hello.java 
+ 1936  docker build -t java-application:latest .
+ 1937  vim hello.java 
+ 1938  ls
+ 1939  mv hello.java  Hello.java
+ 1940  ls
+ 1941  docker build -t java-application:latest .
+ 1942  ls
+ 1943  vim dockerfile 
+ 1944  docker build -t java-application:latest .
+ 1945  ls
+ 1946  cd docker-project/
+ 1947  ls
+ 1948  cd pro
+ 1949  cd ..
+ 1950  cd projects/
+ 1951  ls
+ 1952  cat java-app/
+ 1953  cd java-app/
+ 1954  ls
+ 1955  cat dockerfile 
+ 1956  vim Hello.java 
+ 1957  vim dockerfile 
+ 1958  javac Hello.java 
+ 1959  sudo apt install openjdk-11-jdk-headless
+ 1960  javac Hello.java 
+ 1961  java Hello 
+ 1962  docker build -t java-app:latest .
+ 1963  docker images
+ 1964  docker run java-app:latest
+ 1965  docker run java-application:latest
+ 1966  docker build -t java-app:latest .
+ 1967  docker run java-app:latest
+ 1968  docker images
+ 1969  docker rm java-application
+ 1970  docker build -t java-app:latest .
+ 1971  docker run java-app:latest
+ 1972  vim Hello.java 
+ 1973  vim dockerfile 
+ 1974  docker build -t java-app:latest .
+ 1975  docker run java-app:latest
+ 1976  cd ..
+ 1977  mkdir node-app
+ 1978  cd node-app/
+ 1979  cd ..
+ 1980  git@github.com:LondheShubham153/node-todo-cicd.git
+ 1981  git clone https://github.com/LondheShubham153/node-todo-cicd.git
+ 1982  ls
+ 1983  cd node-
+ 1984  cd node-todo-cicd/
+ 1985  ls
+ 1986  cat docker-compose.yaml 
+ 1987  cat Dockerfile 
+ 1988  rm Dockerfile 
+ 1989  ls
+ 1990  vim Dockerfile
+ 1991  docker build -t node-app .
+ 1992  ls
+ 1993  vim Dockerfile 
+ 1994  docker build -t nodeapp .
+ 1995  ls
+ 1996  vim app.js 
+ 1997  docker build -t node-app .
+ 1998  vim Dockerfile 
+ 1999  docker run 
+ 2000  docker run node-app:latest
+ 2001  ls
+ 2002  cd projects/
+ 2003  ls
+ 2004  cd node-todo-cicd/
+ 2005  ls
+ 2006  docker run -d -p 8000:8000 node-app:latest
+ 2007  ping 0.0.0.8000
+ 2008  ping http://13.232.13.223:8000/todo
+ 2009  ping http://13.232.13.223:8000
+ 2010  ping 13.232.13.223:8000
+ 2011  ping 13.232.13.223:8000/node
+ 2012* 
+ 2013  ls
+ 2014  docker run  -p 8000:8000 node-app:latest
+ 2015  free -h
+ 2016  docker images
+ 2017  docker system prune
+ 2018  free -h
+ 2019  docker system prune
+ 2020  free -h
+ 2021  docker images
+ 2022  docker rmi9dc83b3a0af4
+ 2023  docker rmi 9dc83b3a0af4
+ 2024  docker images
+ 2025  docker -rmi -all
+ 2026  docker -rmi -f $(docker images -aq)
+ 2027  docker rm -vf $(docker ps -aq)
+ 2028  docker images
+ 2029  docker rmi -f $(docker imges -aq)
+ 2030  docker images
+ 2031  docker rmi f391dabf9dce
+ 2032  docker rmi 20ecfb74b29f 00da93c729e9 5cde95de907d 47a932d998b7 f391dabf9dce
+ 2033  docker images
+ 2034  cd
+ 2035  cd ..
+ 2036  cd
+ 2037  ls
+ 2038  cd docker-project/
+ 2039  ls
+ 2040  history > dockerimagecommand.txt
