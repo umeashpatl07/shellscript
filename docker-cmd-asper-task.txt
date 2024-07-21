@@ -1,0 +1,135 @@
+iDocker commands as per task
+
+
+PDF Structure
+1. Title Page
+    * Title: "Docker Tasks and Examples"
+    * Author: [Your Name]
+    * Date: [Current Date]
+2. Table of Contents
+    * Docker Installation and Setup
+    * Docker Image Management
+    * Docker Container Management
+    * Docker Networking
+    * Docker Volumes
+    * Docker Compose
+    * Docker Swarm
+    * Docker Security
+    * Docker Monitoring and Logging
+    * Docker CI/CD
+3. Sections with Examples
+Docker Tasks and Examples
+Docker Installation and Setup
+Example: Installing Docker on Ubuntu
+bash
+sudo apt update
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+
+Docker Image Management
+Example: Pulling an Image
+bash
+docker pull nginx:latest
+
+Example: Building an Image from Dockerfile
+text
+# Dockerfile
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y curl
+
+bash
+docker build -t my-ubuntu-image .
+
+Docker Container Management
+Example: Creating and Running a Container
+bash
+docker run -d --name my-nginx -p 8080:80 nginx
+
+Example: Stopping and Removing a Container
+bash
+docker stop my-nginx
+docker rm my-nginx
+
+Docker Networking
+Example: Creating a Network
+bash
+docker network create my-network
+
+Example: Running a Container on a Network
+bash
+docker run -d --name my-nginx --network my-network nginx
+
+Docker Volumes
+Example: Creating and Mounting a Volume
+bash
+docker volume create my-volume
+docker run -d -v my-volume:/data --name my-data-container ubuntu
+
+Docker Compose
+Example: Docker Compose File
+text
+version: '3'
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+Example: Running Docker Compose
+bash
+docker-compose up -d
+
+Docker Swarm
+Example: Initializing a Swarm
+bash
+docker swarm init
+
+Example: Deploying a Service in Swarm
+bash
+docker service create --name my-service --replicas 3 nginx
+
+Docker Security
+Example: Scanning an Image for Vulnerabilities
+bash
+docker scan my-ubuntu-image
+
+Docker Monitoring and Logging
+Example: Viewing Container Logs
+bash
+docker logs my-nginx
+
+Docker CI/CD
+Example: Dockerfile for CI Pipeline
+text
+# Dockerfile for CI
+FROM node:14
+WORKDIR /app
+COPY . .
+RUN npm install
+CMD ["npm", "start"]
+
+Example: CI/CD Pipeline Configuration (e.g., GitHub Actions)
+text
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build Docker Image
+        run: docker build -t my-app .
+      - name: Push to Docker Hub
+        run: docker push my-app
+
