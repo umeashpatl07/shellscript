@@ -1,0 +1,1000 @@
+ 1116  ls
+ 1117  vim shivansh.txt
+ 1118  git status
+ 1119  git add shivansh.txt 
+ 1120  git commit -m " shvia added"
+ 1121  ls
+ 1122  git push origin devbranch 
+ 1123  git branch
+ 1124  git pull main
+ 1125  git pull origin devbranch 
+ 1126  git push  origin devbranch 
+ 1127  git push
+ 1128  git push --set-upstream origin devbranch 
+ 1129  git status
+ 1130  ls
+ 1131  git branch
+ 1132  ls
+ 1133  git push origin devbranch 
+ 1134  git pull origin devbranch 
+ 1135  ls
+ 1136  git log --oneline
+ 1137  git reset hard 58af57e
+ 1138  ls
+ 1139  git reset hard 58af57e
+ 1140  git reset --hard 58af57e
+ 1141  ls
+ 1142  git push origin devbranch 
+ 1143  ls
+ 1144  git branch
+ 1145  ls
+ 1146  git cehckout main
+ 1147  ls
+ 1148  git checkout main
+ 1149  ls
+ 1150  git status
+ 1151  git checkout devbranch 
+ 1152  git pull origin devbranch 
+ 1153  git rebase devbranch 
+ 1154  ls
+ 1155  git branch
+ 1156  git pull origin devbranch 
+ 1157  git push origin main
+ 1158  git config --global
+ 1159  git config --global -l
+ 1160  ls
+ 1161  rm shivansh.txt 
+ 1162  ls
+ 1163  git status
+ 1164  git rm shivansh.txt 
+ 1165  ls
+ 1166  git status
+ 1167  git reset --hard shivnash.txt
+ 1168  git reset --soft shivansh.txt
+ 1169  ls
+ 1170  ls -a
+ 1171  ls -ltr
+ 1172  git status
+ 1173  git push origin devbranch 
+ 1174  git pull origin devbranch 
+ 1175  ls
+ 1176  git rebase
+ 1177  git rebase devbranch 
+ 1178  git merge devbranch 
+ 1179  ls
+ 1180  git log --oneline
+ 1181  git restore 58af57e
+ 1182  git reset --hard 08e3e1d
+ 1183  git log
+ 1184  ls
+ 1185  cat allcommands.txt 
+ 1186  ls
+ 1187  git checkout main
+ 1188  git pull origin devbranch 
+ 1189  git push origi main
+ 1190  git push origin main
+ 1191  git push origin devbranch 
+ 1192  git merge main
+ 1193  git rebase main
+ 1194  git checkout devbranch 
+ 1195  git merge devbranch 
+ 1196  git branch
+ 1197  vim merge-confilict.txt
+ 1198  git add merge-confilict.txt 
+ 1199  git commit -m " devpe mergeconfict"
+ 1200  git checkout main
+ 1201  vim merge-confilict.txt
+ 1202  git add merge-confilict.txt 
+ 1203  git commit -m " merge masger "
+ 1204  git status
+ 1205  git merge dev
+ 1206  git branch
+ 1207  git checkout devbranch 
+ 1208  git merge devbranch 
+ 1209  ls
+ 1210  git merge devbranch 
+ 1211  git checkout devbranch 
+ 1212  git checkout main
+ 1213  git merge devbranch 
+ 1214  vim merge-confilict.txt 
+ 1215  git status
+ 1216  git add merge-confilict.txt 
+ 1217  git commit -m " resolved merge confict"
+ 1218  git merge dev
+ 1219  git merge devbranch 
+ 1220  ls
+ 1221  cat merge-confilict.txt 
+ 1222  ls
+ 1223  git checkout devbranch 
+ 1224  ls
+ 1225  git push origin merge-confilict.txt
+ 1226  git push origin devbranch 
+ 1227  git status
+ 1228  git push origin devbranch 
+ 1229  git checkout devbranch 
+ 1230  git pull origin devbranch 
+ 1231  git push origin devbranch 
+ 1232  git fetch origin
+ 1233  git reset --hard origin/devbranch 
+ 1234  git status
+ 1235  ls
+ 1236  git checkout main
+ 1237  git pull origin main
+ 1238  git pull origin devbranch 
+ 1239  git checkout devbranch 
+ 1240  git pull origin main
+ 1241  git branch 
+ 1242  git push main
+ 1243  git checkout main
+ 1244  git pull origin main
+ 1245  git merge devbranch 
+ 1246  git status
+ 1247  git pull
+ 1248  git status
+ 1249  ls
+ 1250  git branch
+ 1251  git merge devbranch 
+ 1252  git rebase devbranch 
+ 1253  git merge devbranch 
+ 1254  git status
+ 1255  git branch
+ 1256  git checkout devbranch 
+ 1257  git status
+ 1258  git add merge-confilict.txt 
+ 1259  git commit " merge"
+ 1260  git commit -m " merge "
+ 1261  git merge devbranch 
+ 1262  git pull origin devbranch 
+ 1263  git checkout main
+ 1264  git pull origin devbranch 
+ 1265  ls
+ 1266  git clean * -f
+ 1267  ls
+ 1268  git push origin --delete devbranch 
+ 1269  ls
+ 1270  git branch
+ 1271  git switch devbranch 
+ 1272  git rebase dev
+ 1273  git rebase devbranch
+ 1274  ls
+ 1275  git status
+ 1276  git pull origin main
+ 1277  git pull origin devbranch
+ 1278  ls
+ 1279  ls -a
+ 1280  cd .git
+ 1281  ls
+ 1282  ls -ltr
+ 1283  cd branches
+ 1284  ls
+ 1285  cd logs
+ 1286  ls
+ 1287  cd logs/
+ 1288  cd logs
+ 1289  cd objects
+ 1290  ls
+ 1291  cd ..
+ 1292  ls
+ 1293  ls -a
+ 1294  cd ..
+ 1295  cd
+ 1296  ls
+ 1297  cd git-project/
+ 1298  ls
+ 1299  cd shellscript/
+ 1300  ls
+ 1301  cd
+ 1302  ls
+ 1303  rm -rf git-project/
+ 1304  ls
+ 1305  mkdir git-project
+ 1306  cd git-project/
+ 1307  git init
+ 1308  git clone git@github.com:umeashpatl07/shellscript.git
+ 1309  ls
+ 1310  cd shellscript/
+ 1311  ls
+ 1312  touch gita.txt
+ 1313  git status
+ 1314  git add gita.txt 
+ 1315  git commit " file gita added"
+ 1316  git branch
+ 1317  ls
+ 1318  git checkout -b dev
+ 1319  git branch
+ 1320  ls
+ 1321  vim bamboo.txt
+ 1322  git status
+ 1323  git add bamboo.txt 
+ 1324  git commit -m " bamboo file added"
+ 1325  git status
+ 1326  ls
+ 1327  git pull origin dev
+ 1328  git remote -v
+ 1329  git pull origin dev
+ 1330  git push origin dev
+ 1331  ls
+ 1332  git branch
+ 1333  git checkout main
+ 1334  git merge dev
+ 1335  git push origin dev
+ 1336  git merge dev
+ 1337  git branch
+ 1338  ls
+ 1339  git checkout dev
+ 1340  ls
+ 1341  git merge dev
+ 1342  git push origin dev
+ 1343  git branch
+ 1344  ls
+ 1345  git checkout main
+ 1346  ls
+ 1347  git checkout dev
+ 1348  git pull origin dev
+ 1349  git checkout main
+ 1350  git pull origin main
+ 1351  git checkout dev -- home/ubuntu/git-project/shellscript/gita.txt
+ 1352  pwd
+ 1353  ls
+ 1354  git checkout dev --home/ubuntu/git-project/shellscript
+ 1355  git checkout dev -- home/ubuntu/git-project/shellscript
+ 1356  git checkout dev -- home/ubuntu/git-project/shellscript/gita.txt
+ 1357  ls
+ 1358  history
+ 1359  ls
+ 1360  clear
+ 1361  git branch
+ 1362  ls
+ 1363  git checkout dev
+ 1364  ls
+ 1365  git checkout main
+ 1366  git pull dev
+ 1367  git pull origin dev
+ 1368  git merge origin dev
+ 1369  git rebase origin dev
+ 1370  git checkout dev
+ 1371  git push origin dev
+ 1372  git merge main
+ 1373  git merge dev
+ 1374  git checkout main
+ 1375  git merge dev
+ 1376  git push origin main
+ 1377  git merge origin dev
+ 1378  vim gitpull-gitpush-process-in-sequence.txt
+ 1379  ls
+ 1380  git branch
+ 1381  git checkout dev
+ 1382  ls
+ 1383  git push origin dev
+ 1384  git merge main
+ 1385  git checkout main
+ 1386  ls
+ 1387  git push origin main
+ 1388  git pull origin dev
+ 1389  git status
+ 1390  git add gitpull-gitpush-process-in-sequence.txt 
+ 1391  git commit -m "important file"
+ 1392  git branch
+ 1393  git ls
+ 1394  ls
+ 1395  git push origin dev
+ 1396  git pull  origin dev
+ 1397  git checkout dev
+ 1398  ls
+ 1399  git pull origin main
+ 1400  git pull origin dev
+ 1401  git checkout main
+ 1402  git push origin dev
+ 1403  git checkout dev
+ 1404  git merge main
+ 1405  ls
+ 1406  git status
+ 1407  git pull origin dev
+ 1408  git push  origin dev
+ 1409  git branch
+ 1410  git checkout main
+ 1411  git pull origin dev
+ 1412  git merge origin dev
+ 1413  git merge dev
+ 1414  git checkout dev
+ 1415  git push origin main
+ 1416  git checkout dev
+ 1417  ls
+ 1418  git pull origin main
+ 1419  git pull origin dev
+ 1420  git checkout main
+ 1421  ls
+ 1422  git merge dev
+ 1423  git pull origin dev
+ 1424  git checkout main
+ 1425  git merge dev
+ 1426  git merge main
+ 1427  git checkout dev
+ 1428  git merge main
+ 1429  git status
+ 1430  git checkout dev
+ 1431  git pull origin dev
+ 1432  git checkout main
+ 1433  git pull origin main
+ 1434  git checkout main
+ 1435  git push origin main
+ 1436  git checkout dev
+ 1437  vim git-commands.txt
+ 1438  git status
+ 1439  git add git-commands.txt 
+ 1440  git commit -m "all git commands added in seq"
+ 1441  ls
+ 1442  git push origin dev
+ 1443  ls
+ 1444  git checkout main
+ 1445  ls
+ 1446  git merge dev
+ 1447  ls
+ 1448  git checkout main
+ 1449  ls
+ 1450  git merge main
+ 1451  git merge dev
+ 1452  git checkout dev
+ 1453  git push origin dev
+ 1454  git push origin main
+ 1455  ls
+ 1456  cd
+ 1457  git branch
+ 1458  cd git-project/
+ 1459  cd shellscript/
+ 1460  git branch
+ 1461  git branch -l
+ 1462  git commit -l
+ 1463  git branch
+ 1464  git status
+ 1465  git push origin dev
+ 1466  git checkout main
+ 1467  git pull origin dev
+ 1468  clear
+ 1469  ls
+ 1470  cd git-project/
+ 1471  ls
+ 1472  cd shellscript/
+ 1473  ls
+ 1474  touch 20jul.txt
+ 1475  git status
+ 1476  git add 20jul.txt 
+ 1477  git commit -m " today "
+ 1478  git branch
+ 1479  git checkout dev 
+ 1480  git merge main
+ 1481  ls
+ 1482  git push dev
+ 1483  git push origin dev
+ 1484  git checkout main
+ 1485  ls
+ 1486  git pull origin dev
+ 1487  git push origin dev
+ 1488  git push origin main
+ 1489  clear
+ 1490  sudo apt install docker.io
+ 1491  docker ps
+ 1492  docker ls
+ 1493  clear
+ 1494  cd
+ 1495  ls
+ 1496  ls -ltr
+ 1497  ps
+ 1498  free -h
+ 1499  hostnamectl
+ 1500  who
+ 1501  date
+ 1502  ls
+ 1503  clear
+ 1504  who
+ 1505  whocl
+ 1506  whoctl
+ 1507  whoami
+ 1508  whoami -d
+ 1509  whoami -p
+ 1510  who ami
+ 1511  ls
+ 1512  whoami
+ 1513  whoami man
+ 1514  man whoami
+ 1515  docker --version
+ 1516  sudo apt install jenkin.io
+ 1517  sudo apt install jenkin.services
+ 1518  sudo apt-get update
+ 1519  sudo apt-get install docker.io
+ 1520  docker --version
+ 1521  docker ps
+ 1522  docker systemctl
+ 1523  systemctl system docker
+ 1524  systemctl docker
+ 1525  docker ps
+ 1526  cd /etc/group
+ 1527  cd /etc/group/
+ 1528  cd /etc/groups/
+ 1529  cd ../etc/groups/
+ 1530  cd ../etc/groups
+ 1531  cd /etc/group/
+ 1532  sudo usermod aG docker $user
+ 1533  cat  /etc/group
+ 1534  sudo reboot
+ 1535  docker ps
+ 1536  sudo usermod aG docker $USER
+ 1537  cat  /etc/group
+ 1538  CLEAR
+ 1539  docker ps
+ 1540  sudo apt-get updage
+ 1541  sudo apt-get update
+ 1542  sudo usermod aG docker $USER
+ 1543  docker ps
+ 1544  sudo usermod aG docker $USER
+ 1545  sudo apt-get udpate
+ 1546  sud0 usermod -aG $USER
+ 1547  sudo usermod -aG $USER
+ 1548  sudo usermod -ag $USER
+ 1549  docker ps
+ 1550  sudo docker ps
+ 1551  sudo groupadd docker
+ 1552  sudo usermod -aG $USER
+ 1553  docker ps
+ 1554  sudo docker ps
+ 1555  sudo systemctl restart docker
+ 1556  sudo systemctl status docker
+ 1557  sudo chown root:docker /var/run/docker.sock
+ 1558  sudo chmod 660 /var/run/docker.sock
+ 1559  sudo chown root:docker /var/run/docker.sock
+ 1560  sudo docker ps
+ 1561  sudo usermod -aG $username
+ 1562  sudo usermod --aG $username
+ 1563  sudo usermod -a -G $username
+ 1564  docker ps
+ 1565  sudo docker ps
+ 1566  docker free-h
+ 1567  dcoker images
+ 1568  docker images
+ 1569  sudo docker images
+ 1570  sudo docker start
+ 1571  sudo docker restart
+ 1572  sudo chown root:docker /var/run/docker.sock
+ 1573  docker ps
+ 1574  sudo chown ubuntu :docker /var/run/docker.sock
+ 1575  sudo chown ubuntu :docker /var/run/docker.io
+ 1576  sudo chown ubuntu :docker /var/run/docker
+ 1577  sudo chown ubuntu :docker /var/run/docker.sock
+ 1578  sudo chown ubuntu :docker /var/run/docker.services
+ 1579  sudo chown ubuntu :docker /var/run/docker/
+ 1580  sudo usermod -aG docker $USER
+ 1581  docker ps
+ 1582  docker images
+ 1583  docker images -a
+ 1584  docker free -h
+ 1585  docker ps
+ 1586  ls
+ 1587  cd git-project/
+ 1588  ls
+ 1589  cd shellscript/
+ 1590  ls
+ 1591  git branch
+ 1592  git checkout dev
+ 1593  touch docker-cmds.txt 
+ 1594  vim docker-cmds.txt 
+ 1595  git status
+ 1596  git add docker-cmds.txt 
+ 1597  git commit -m " docker file added"
+ 1598  git status
+ 1599  ls
+ 1600  git push origin dev
+ 1601  git checkout main
+ 1602  git pull origin main
+ 1603  git pull origin dev
+ 1604  ls
+ 1605  git branch
+ 1606  ls
+ 1607  git pull origin main
+ 1608  git pull origin dev
+ 1609  git branch
+ 1610  git pull origin dev
+ 1611  ls
+ 1612  git status
+ 1613  git push origin main
+ 1614  git branch
+ 1615  git checkout dev
+ 1616  git push origin main
+ 1617  git checkout main
+ 1618  git pull origin dev
+ 1619  ls
+ 1620  docker ps
+ 1621  cd git-project/
+ 1622  cd shellscript/
+ 1623  ls
+ 1624  git branch
+ 1625  git merge dev
+ 1626  git pull origin dev
+ 1627  git merge origin dev
+ 1628  git status
+ 1629  git pull origin dev
+ 1630  clear
+ 1631  docker --version
+ 1632  sudo apt install docker
+ 1633  sudo apt install docker.io
+ 1634  docker ps
+ 1635  systemctl status docker
+ 1636  clear
+ 1637  docker ps
+ 1638  docker free -h
+ 1639  docker info
+ 1640  cat /etc/groups/
+ 1641  cat /etc/groups
+ 1642  sudo cat /etc/group
+ 1643  sudo usermod -aG docker $USER
+ 1644  sudo cat /etc/group
+ 1645  DOCKER PS
+ 1646  docker ps
+ 1647  docker start
+ 1648  docker hman
+ 1649  docker man
+ 1650  man docker
+ 1651  clear
+ 1652  docker pull mysql
+ 1653  docker ps
+ 1654  docker status
+ 1655  docker images
+ 1656  docker run 5cde95de907d:latest
+ 1657  docker mysql:latest
+ 1658  docker run mysql:latest
+ 1659  docker run -e MYSQL_ROOT_PASSWORD=test@123  mysql:latest
+ 1660  docker ps
+ 1661  docker restart 27fbea3ff37d
+ 1662  docker fs
+ 1663  docker ps
+ 1664  docker kill 27fbea3ff37d
+ 1665  docker run -d  -e MYSQL_ROOT_PASSWORD=test@123  mysql:latest
+ 1666  docker ps
+ 1667  docker sql
+ 1668  dockeer mysql
+ 1669  mkdir docker-project
+ 1670  ls
+ 1671  cd docker-project/
+ 1672  cd
+ 1673  mkdir projects
+ 1674  cd projects/
+ 1675  mkdir java-app
+ 1676  cd java-app/
+ 1677  vim hello.java
+ 1678  ls
+ 1679  cat hello.java 
+ 1680  javac hello.java 
+ 1681  vim hello.java 
+ 1682  vim dockerfile
+ 1683  ls
+ 1684  docker build -t java-application:latest
+ 1685  docker build -t java-application:latest .
+ 1686  vim hello.java 
+ 1687  docker build -t java-application:latest .
+ 1688  vim hello.java 
+ 1689  ls
+ 1690  mv hello.java  Hello.java
+ 1691  ls
+ 1692  docker build -t java-application:latest .
+ 1693  ls
+ 1694  vim dockerfile 
+ 1695  docker build -t java-application:latest .
+ 1696  ls
+ 1697  cd docker-project/
+ 1698  ls
+ 1699  cd pro
+ 1700  cd ..
+ 1701  cd projects/
+ 1702  ls
+ 1703  cat java-app/
+ 1704  cd java-app/
+ 1705  ls
+ 1706  cat dockerfile 
+ 1707  vim Hello.java 
+ 1708  vim dockerfile 
+ 1709  javac Hello.java 
+ 1710  sudo apt install openjdk-11-jdk-headless
+ 1711  javac Hello.java 
+ 1712  java Hello 
+ 1713  docker build -t java-app:latest .
+ 1714  docker images
+ 1715  docker run java-app:latest
+ 1716  docker run java-application:latest
+ 1717  docker build -t java-app:latest .
+ 1718  docker run java-app:latest
+ 1719  docker images
+ 1720  docker rm java-application
+ 1721  docker build -t java-app:latest .
+ 1722  docker run java-app:latest
+ 1723  vim Hello.java 
+ 1724  vim dockerfile 
+ 1725  docker build -t java-app:latest .
+ 1726  docker run java-app:latest
+ 1727  cd ..
+ 1728  mkdir node-app
+ 1729  cd node-app/
+ 1730  cd ..
+ 1731  git@github.com:LondheShubham153/node-todo-cicd.git
+ 1732  git clone https://github.com/LondheShubham153/node-todo-cicd.git
+ 1733  ls
+ 1734  cd node-
+ 1735  cd node-todo-cicd/
+ 1736  ls
+ 1737  cat docker-compose.yaml 
+ 1738  cat Dockerfile 
+ 1739  rm Dockerfile 
+ 1740  ls
+ 1741  vim Dockerfile
+ 1742  docker build -t node-app .
+ 1743  ls
+ 1744  vim Dockerfile 
+ 1745  docker build -t nodeapp .
+ 1746  ls
+ 1747  vim app.js 
+ 1748  docker build -t node-app .
+ 1749  vim Dockerfile 
+ 1750  docker run 
+ 1751  docker run node-app:latest
+ 1752  ls
+ 1753  cd projects/
+ 1754  ls
+ 1755  cd node-todo-cicd/
+ 1756  ls
+ 1757  docker run -d -p 8000:8000 node-app:latest
+ 1758  ping 0.0.0.8000
+ 1759  ping http://13.232.13.223:8000/todo
+ 1760  ping http://13.232.13.223:8000
+ 1761  ping 13.232.13.223:8000
+ 1762  ping 13.232.13.223:8000/node
+ 1763  ls
+ 1764  docker run  -p 8000:8000 node-app:latest
+ 1765  free -h
+ 1766  docker images
+ 1767  docker system prune
+ 1768  free -h
+ 1769  docker system prune
+ 1770  free -h
+ 1771  docker images
+ 1772  docker rmi9dc83b3a0af4
+ 1773  docker rmi 9dc83b3a0af4
+ 1774  docker images
+ 1775  docker -rmi -all
+ 1776  docker -rmi -f $(docker images -aq)
+ 1777  docker rm -vf $(docker ps -aq)
+ 1778  docker images
+ 1779  docker rmi -f $(docker imges -aq)
+ 1780  docker images
+ 1781  docker rmi f391dabf9dce
+ 1782  docker rmi 20ecfb74b29f 00da93c729e9 5cde95de907d 47a932d998b7 f391dabf9dce
+ 1783  docker images
+ 1784  cd
+ 1785  cd ..
+ 1786  cd
+ 1787  ls
+ 1788  cd docker-project/
+ 1789  ls
+ 1790  history > dockerimagecommand.txt
+ 1791  ls
+ 1792  cat dockerimagecommand.txt 
+ 1793  clear
+ 1794  ls
+ 1795  cd docker-project/
+ 1796  ls
+ 1797  pwd
+ 1798  cd
+ 1799  pwd
+ 1800  cd git-project/
+ 1801  ls
+ 1802  cd shellscript/
+ 1803  pwd
+ 1804  cd
+ 1805  cd docker-project/
+ 1806  ls
+ 1807  mv dockerimagecommand.txt /home/ubuntu/git-project/shellscript
+ 1808  cd
+ 1809  cd git-project/
+ 1810  cd shellscript/
+ 1811  ls
+ 1812  git status
+ 1813  git add dockerimagecommand.txt 
+ 1814  git commit -m " docker command added"
+ 1815  git branch
+ 1816  ls
+ 1817  git push origin main
+ 1818  git checkout dev
+ 1819  ls
+ 1820  git pull origin main
+ 1821  ls
+ 1822  git push origin dev
+ 1823  git pull origin dev
+ 1824  ls
+ 1825  git checkout main
+ 1826  ls
+ 1827  docker push origin dev
+ 1828  git push origin dev
+ 1829  ls
+ 1830  git branch
+ 1831  git checkout dev
+ 1832  git merge origin dev
+ 1833  git rebase origin dev
+ 1834  git checkout dev
+ 1835  git pull origin dev
+ 1836  cd ..
+ 1837  ls
+ 1838  cd
+ 1839  cd projects/
+ 1840  ls
+ 1841  cd node-app/
+ 1842  ls
+ 1843  cd ..
+ 1844  clear
+ 1845  cd
+ 1846  ls
+ 1847  cd git-project/
+ 1848  ls
+ 1849  git shellscript/
+ 1850  cd shellscript/
+ 1851  ls
+ 1852  git branch
+ 1853  git merge main
+ 1854  git chekcout main
+ 1855  git checkout dev
+ 1856  ls
+ 1857  git push origin dev
+ 1858  git checkout main
+ 1859  git pull origin dev
+ 1860  git merge origin dev
+ 1861  ls
+ 1862  vim docker-task-list.txt
+ 1863  vim docker-cmd-asper-task.txt
+ 1864  git status
+ 1865  git add docker-cmd-asper-task.txt 
+ 1866  git add docker-task-list.txt 
+ 1867  git commit -m " docker task"
+ 1868  ls
+ 1869  git checkout dev
+ 1870  git merge main
+ 1871  git checkout dev
+ 1872  ls
+ 1873  git branch
+ 1874  git pull origin dev
+ 1875  git push origin main
+ 1876  git merge dev
+ 1877  ls
+ 1878  git branch
+ 1879  ls
+ 1880  git pull origin dev
+ 1881  git merge dev
+ 1882  git rebase dev
+ 1883  git branch
+ 1884  git push origin dev
+ 1885  git checkout main
+ 1886  ls
+ 1887  git pull origin dev
+ 1888  git merge dev
+ 1889  ls
+ 1890  cat docker-cmd-asper-task.txt 
+ 1891  ls
+ 1892  cd docker-project/
+ 1893  ls
+ 1894  cd ..
+ 1895  cd rp
+ 1896  cd projects/
+ 1897  ls
+ 1898  docker images
+ 1899  docker login
+ 1900  sudo docker login
+ 1901  docker images
+ 1902  ls
+ 1903  cd node-todo-cicd/
+ 1904  docker run app.js
+ 1905  docker run app.js:latest
+ 1906  ls
+ 1907  docker start
+ 1908  ls
+ 1909  docker pull
+ 1910  docker images
+ 1911  cd
+ 1912  cd projects/
+ 1913  ls
+ 1914  cd node-app/
+ 1915  ls
+ 1916  cd ..
+ 1917  cd java-app/
+ 1918  ls
+ 1919  docker build -t java-app:latest .
+ 1920  docker run java-app:latest
+ 1921  cd ..
+ 1922  ls
+ 1923  cd node-todo-cicd/
+ 1924  ls
+ 1925  docker build -t node-app .
+ 1926  docker run node-app:latest
+ 1927  ls
+ 1928  cd projects/
+ 1929  ls
+ 1930  cd node-todo-cicd/
+ 1931  ls
+ 1932  docker images
+ 1933  docker run -d  node-app:latest
+ 1934  docker images
+ 1935  docker branch
+ 1936  docker run -d  -p 8000:8000 node-app:latest
+ 1937  docker images
+ 1938  docker run -d node:latest
+ 1939  docker build -t node
+ 1940  docker build -t node .
+ 1941  docker images
+ 1942  docker log f391dabf9dce
+ 1943  docker bb3a17cabf0a
+ 1944  docker-help
+ 1945  docker--help
+ 1946  docker ps
+ 1947  docker ps | free -h
+ 1948  docker volume ls
+ 1949  docker ps
+ 1950  docker rm 42daea56a91d
+ 1951  docker rmi 42daea56a91d
+ 1952  docker stop 42daea56a91d
+ 1953  docker stop 6d5793c29795
+ 1954  docker stop 28450c159375
+ 1955  docker ps
+ 1956  clear
+ 1957  cd
+ 1958  docker ps
+ 1959  docker run -d -e MYSQL_ROOT_PASSWORD=root  mysql:5.7
+ 1960  docker ps
+ 1961  docker exec -it 28450c159375 bash
+ 1962  docker exec -it 9f6a76e2ce74 bash
+ 1963  docker ps
+ 1964  docker exec -it 9f6a76e2ce74 bash
+ 1965  clear
+ 1966  docker ps
+ 1967  docker volume ls
+ 1968  docker volume create mysqldata-volume
+ 1969  docker volume inspect mysqldata-volume 
+ 1970  docker run -d --name mysql-demo -v mysqldata-volume:/var/lib/mysql -e MYSQL_ROOT_PASWWORD=root mysql:5.7
+ 1971  docker eec -it mysql-demo bash
+ 1972  docker exec -it mysql-demo bash
+ 1973  docker run -d --name mysql-demo -v mysqldata-volume:/var/lib/mysql -e MYSQL_ROOT_PASWWORD=root mysql:5.7
+ 1974  docker exec -it mysql-demo bash
+ 1975  docker ps
+ 1976  docker images
+ 1977  docker run -d --name mysql-demo -v mysqldata-volume:/var/lib/mysql -e MYSQL_ROOT_PASWWORD=root mysql:5.7
+ 1978  docker run -d --name mysqldemo -v mysqldata-volume:/var/lib/mysql -e MYSQL_ROOT_PASWWORD=root mysql:5.7
+ 1979  docker exec -it mysqldemo bash
+ 1980  clear
+ 1981  docker exec -it mysqldemo bash
+ 1982  docker exec -it mysql-demo bash
+ 1983  docker ps -a
+ 1984  docker start mysql-demo
+ 1985  docker ps -a
+ 1986  docker start f0bb51502343
+ 1987  docker ps -a
+ 1988  docker start mysqldemo
+ 1989  ls
+ 1990  docker images
+ 1991  docker status
+ 1992  docker logs mysql-demo
+ 1993  docker ps
+ 1994  docker exec -it mysql-demo bash
+ 1995  docker ps
+ 1996  docker ps -a
+ 1997  docker start 8ad292e59c28
+ 1998  docker ps -a
+ 1999  docker build -t two-tier-app:latest .
+ 2000  cd projects/
+ 2001  ls
+ 2002  cd python/
+ 2003  ls
+ 2004  cd tow
+ 2005  cd two-tier-flask-app/
+ 2006  docker ps
+ 2007  ls
+ 2008  docker build -t two-tier-app:latest .
+ 2009  ls
+ 2010  vim docker-compose.yml 
+ 2011  vim dockerfile
+ 2012  ls
+ 2013  vim Dockerfile
+ 2014  docker build -t two-tier-app:latest .
+ 2015  cat Dockerfile 
+ 2016  apt-get update     && apt-get upgrade -y     && apt-get install -y gcc default-libmysqlclient-dev pkg-config     && rm -rf /var/lib/apt/lists/*
+ 2017  sudo apt-get update     && apt-get upgrade -y     && apt-get install -y gcc default-libmysqlclient-dev pkg-config     && rm -rf /var/lib/apt/lists/*
+ 2018  docker build -t two-tier-app:latest .
+ 2019  docker images
+ 2020  docker volume ls
+ 2021  docker volume -a
+ 2022  docker ps -a
+ 2023  df -h  # Check overall disk usage
+ 2024  du -sh /*  # Check usage per directory at root
+ 2025  docker container prune
+ 2026  docker image prune
+ 2027  docker image prune -a
+ 2028  docker volume prune
+ 2029  docker network prune
+ 2030  docker system prune -a
+ 2031  sudo resize2fs /dev/xvda1  # or the appropriate device name
+ 2032  df -h
+ 2033  du -sh /*
+ 2034  du -sh /var/lib/docker/*
+ 2035  sudo du -sh /var/lib/docker/*
+ 2036  RUN apt-get update &&     apt-get install -y gcc default-libmysqlclient-dev pkg-config &&     rm -rf /var/lib/apt/lists/*
+ 2037  vim Dockerfile 
+ 2038  docker ps
+ 2039  ls
+ 2040  docker ps -a
+ 2041  docker build -t two-tier-app:latest .
+ 2042  docker run -d -e MYSQL_HOST=localhost -e MYSQL_USER=root -e MYSQL_PASSWORD=test@123 -e MYSQL_db=devops two-tier-app:latest
+ 2043  docker ps
+ 2044  docker ps -a
+ 2045  docker logs 30fb176df4ed
+ 2046  docker network ls
+ 2047  docker ps
+ 2048  docker stop a38f75c7530b && docker rm a38f75c7530b
+ 2049  docker ps
+ 2050  docker run -d --network=host -e MYSQL_PASSWORD=test@123 mysql:5.7
+ 2051  docker ps
+ 2052  docker ps -a
+ 2053  docker run -d --network=host -e MYSQL_PASSWORD=test@123 mysql:5.7
+ 2054  docker ps
+ 2055  docker ps -a
+ 2056  docker images
+ 2057  docker ps
+ 2058  docekr ps -a
+ 2059  docker ps
+ 2060  docker ps -a
+ 2061  docker stop c188c6496fed && docker rm c188c6496fed
+ 2062  docker ps -a
+ 2063  docker stop 8c759da5821c && docker rm 8c759da5821c
+ 2064  docker ps -a
+ 2065  docker stop 30fb176df4ed && docker rm 30fb176df4ed
+ 2066  docker ps
+ 2067  docker run -d --network=host -e MYSQL_PASSWORD=test@123 mysql:5.7
+ 2068  docker ps
+ 2069  docker run -d --network=host -e MYSQL_ROOT_PASSWORD=test@123 mysql:5.7
+ 2070  docker ps
+ 2071  docker ps inspect 0f000f4e9f4b
+ 2072  docker inspect 0f000f4e9f4b
+ 2073  clear
+ 2074  doceker ps
+ 2075  docekr ps
+ 2076  docker ps
+ 2077  docker ps -a
+ 2078  docker stop 0f000f4e9f4b && docker rm 0f000f4e9f4b
+ 2079  docker stop 4cc2e2dacffa && docker rm 4cc2e2dacffa
+ 2080  docker ps
+ 2081  docker network ls
+ 2082  docker network create twotier
+ 2083  docker network ls
+ 2084  docker ps
+ 2085  docker run -d -v mysql-data:/var/lib/mysql --network twotier --name mysql -e MYSQL_DATABASE=devops -e MYSQL_ROOT_PASSWORD=test@123 mysql:5.7
+ 2086  docker ps
+ 2087  ls
+ 2088  docker run -d --network twotier --name two-tier-app -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=test@123 -e MYSQL_DB=devops two-tier-app:latest
+ 2089  docker ps
+ 2090  docker logs
+ 2091  docker lg
+ 2092  docker log
+ 2093  docker log ae6a100aa306
+ 2094  docker logs ae6a100aa306
+ 2095  docker stop ae6a100aa306 && docker rm ae6a100aa306
+ 2096  docker run -d --network twotier --name two-tier-app -p 5000:5000 -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=test@123 -e MYSQL_DB=devops two-tier-app:latest
+ 2097  docker ps
+ 2098  docker exec -it mysql bash
+ 2099  docker network ls
+ 2100  docker volume ls
+ 2101  docker inspect mysql-data
+ 2102  sudo /var/lib/docker/volumes/mysql-data/
+ 2103  sudo /var/lib/docker/volumes/mysql-data
+ 2104  sudo su
+ 2105  ls
+ 2106  cd
+ 2107  ls
+ 2108  cd project
+ 2109  cd projects/
+ 2110  ls
+ 2111  cd ..
+ 2112  cd git-project/
+ 2113  ls
+ 2114  cd shellscript/
+ 2115  history > docker-volume-network-cmds.txt
